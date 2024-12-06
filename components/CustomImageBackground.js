@@ -5,7 +5,7 @@ import { ImageBackground } from 'react-native-web';
 const CustomImageBackground = () => {
   return (
     <ImageBackground
-    source={require=('./assets/images/istockphoto.jpg')}
+    source={require=('./assets/images/tech.jpg')}
     style={styles.background}
   >
     <Text style={styles.text}>Hello, World!</Text>
@@ -17,7 +17,7 @@ export default CustomImageBackground
 
 const styles = StyleSheet.create({
     background: {
-      flex: 1,
+      flex: 5,
       justifyContent: 'center',
       alignItems: 'center',
       margin: 10,
